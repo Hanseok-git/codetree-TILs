@@ -10,14 +10,13 @@ public class Main {
             System.out.println("YES");
         }
         else {
-            System.out.println("No");
+            System.out.println("NO");
         }
-
         if (a%5==0) {
             System.out.println("YES");
         }
         else {
-            System.out.println("No");
+            System.out.println("NO");
         }
     }
 }
