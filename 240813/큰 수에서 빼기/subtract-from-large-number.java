@@ -7,21 +7,11 @@ public class Main {
         int a = sc.nextInt();
         int b = sc.nextInt();
 
-        if ( a > b ) {
-            a -= b;
-            System.out.println(a);
+        if ( a >= b ) {
+            System.out.println(a-b);
         }
-
         if ( a < b ) {
-            b -= a;
-            System.out.println(b);
+            System.out.println(b-a);
         }
-
-        if ( a == b ) {
-            a -= b;
-            b -= a;
-            System.out.println(a);
-        }
-
     }
 }
