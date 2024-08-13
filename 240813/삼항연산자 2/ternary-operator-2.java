@@ -7,7 +7,7 @@ public class Main {
         int a = sc.nextInt();
         String b;
 
-        b = a >= 1 ? "t" : "f" ;
+        b = a = 1 ? "t" : "f" ;
 
         System.out.print(b);
     }
