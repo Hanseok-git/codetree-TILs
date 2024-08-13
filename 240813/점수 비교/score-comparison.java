@@ -5,11 +5,11 @@ public class Main {
         Scanner sc = new Scanner(System.in);
 
         int Am = sc.nextInt();
+        int Ae = sc.nextInt();
         int Bm = sc.nextInt();
-        int As = sc.nextInt();
-        int Bs = sc.nextInt();        
+        int Be = sc.nextInt();        
 
-        if (Am>Bm && As>Bs) {
+        if (Am>Bm && Ae>Be) {
             System.out.println("1");
         }
         else {
