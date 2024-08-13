@@ -12,7 +12,7 @@ public class Main {
             System.out.println(a);
         }
 
-        if ( a < b ) {
+        if ( a =< b ) {
             b -= a;
             System.out.println(b);
         }
