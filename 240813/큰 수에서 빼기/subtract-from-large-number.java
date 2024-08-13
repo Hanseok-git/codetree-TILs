@@ -16,5 +16,10 @@ public class Main {
             b -= a;
             System.out.println(b);
         }
+
+        if ( a == b ){
+            a -= b;
+            System.out.print(a);
+        }
     }
 }
