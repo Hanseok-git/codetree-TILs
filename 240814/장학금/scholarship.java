@@ -7,8 +7,9 @@ public class Main {
         int m = sc.nextInt();
         int l = sc.nextInt();
 
-        if (90<= m && 95<=l) {
+        if (90<= m && (95<=l || 90<=l)) {
             System.out.print("100000");
+            System.out.print("50000");
         }
         else {
             System.out.print("0");
