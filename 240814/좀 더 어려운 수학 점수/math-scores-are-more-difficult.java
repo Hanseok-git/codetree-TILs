@@ -12,7 +12,13 @@ public class Main {
         if ((Am>Bm && Ae<Be)||(Am>Bm && Ae>Be)) {
             System.out.print("A");
         }
-        else if ((Am<Bm && Ae<Be)||(Am<Bm && Ae>Be)) {
+        if ((Am<Bm && Ae<Be)||(Am<Bm && Ae>Be)) {
+            System.out.print("B");
+        }
+        if ((Am==Bm)&&(Ae>Be)) {
+            System.out.print("A");
+        }
+        if ((Am==Bm)&&(Ae<Be)) {
             System.out.print("B");
         }
     }
