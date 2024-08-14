@@ -9,10 +9,10 @@ public class Main {
         int Bm = sc.nextInt();
         int Be = sc.nextInt();
 
-        if ((Am>Bm && Ae<=Be)||(Am>Bm && Ae>=Be)) {
+        if ((Am>Bm && Ae<Be)||(Am>Bm && Ae>Be)) {
             System.out.print("A");
         }
-        else if ((Am<Bm && Ae<=Be)||(Am<Bm && Ae>=Be)) {
+        else if ((Am<Bm && Ae<Be)||(Am<Bm && Ae>Be)) {
             System.out.print("B");
         }
     }
