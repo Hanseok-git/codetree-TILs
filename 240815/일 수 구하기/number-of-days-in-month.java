@@ -7,10 +7,10 @@ public class Main {
         int n = sc.nextInt();
 
         if ((n>=1 && n<=12) && n!=2) {
-            if (n==2) {
-                System.out.println("28");
-            }
             System.out.println("31");
+        }
+        else {
+            System.out.println("28");
         }
     }
 }
