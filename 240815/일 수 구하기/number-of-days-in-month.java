@@ -6,7 +6,10 @@ public class Main {
 
         int n = sc.nextInt();
 
-        if ((n>=1 && n<=12) && n!=2) {
+        if(((n%2==1) && n<=9) || ((n%2==0) && n>=10)) { 
+            if (((n%2==0) && n<10) && n!=2 || n == 11) {
+                System.out.println("30");
+            }
             System.out.println("31");
         }
         else {
