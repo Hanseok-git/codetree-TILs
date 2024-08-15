@@ -6,7 +6,7 @@ public class Main {
 
         int n = sc.nextInt();
 
-        if ((n>=1 && n<=12) || n!=2) {
+        if ((n>=1 && n<=12) && n!=2) {
             if (n==2) {
                 System.out.println("28");
             }
