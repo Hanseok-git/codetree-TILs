@@ -8,8 +8,6 @@ public class Main {
         int b = sc.nextInt();
 
 
-        b=b+1;
-
         for (int i=1; (a<=i && i<=b); i+=2) {
             System.out.print(i+" ");
         }
